@@ -1,26 +1,35 @@
 ### Hi, I'm Ali Doğan 👋
 
-Cybersecurity & network infrastructure engineer based in Istanbul. Electrical-Electronics
-Engineer by degree. I run firewalls, SOC tooling and access control day to day, and I build
-automation for the repetitive parts of that work.
+**Senior Cyber Security Engineer** · Security Operations & Threat Prevention · Istanbul
 
-**Daily stack:** FortiGate · Check Point · F5 · SIEM / SOC · TippingPoint IPS · NAC · MFA / RADIUS · SSL VPN
+I work on the defensive side of enterprise security: detecting threats, stopping them at the
+control layer and proving those controls actually hold. 5+ years across MSSP/SOC and in-house
+security teams, from SIEM correlation and threat hunting to breach & attack simulation and
+incident response.
 
-**Building with:** Python · Go · Flask · PostgreSQL · Docker · Nuclei · Linux
+- 🔎 **Detection & response:** SIEM use cases and correlation, threat hunting, EDR / XDR, SOAR playbooks, incident response
+- 🛡️ **Threat prevention:** IPS / IDS, WAF, DNS security, sandboxing, mail security, SSL inspection
+- 🧠 **Threat intelligence:** IoC lifecycle, enrichment and automated enforcement across security controls
+- 🎯 **Security validation:** Breach & Attack Simulation (Picus SCV), MITRE ATT&CK gap analysis and hardening
+- 🔐 **Access control:** NAC (802.1X, RADIUS), MFA
+- 📋 **Governance:** ISO 27001, KVKK, NIST, PCI-DSS
 
-#### 🔧 Public projects
+I automate the repetitive parts of security operations with Python: threat-feed orchestration,
+control validation and configuration auditing.
+
+#### 🔧 Projects
 
 | Project | What it does |
 |---|---|
-| [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai) | Turns raw Nuclei findings into an executive HTML risk report with Gemini: business risk, attacker view, remediation. |
-| [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool) | Checks IPs on AbuseIPDB + VirusTotal and blocks malicious ones on FortiGate automatically, with timed removal. |
-| [iocmanager](https://github.com/dog4n/iocmanager) | Self-hosted portal for IP / hash / domain / URL threat feeds: role-based access, audit log, FortiGate object control, SIEM, Umbrella, TippingPoint and Cloudflare sync. |
-| [ot-medeus](https://github.com/dog4n/ot-medeus) | Read-only OT / ICS / BMS asset discovery and inventory engine with rate-limited, safe-by-default probes. |
+| [iocmanager](https://github.com/dog4n/iocmanager) | Central threat-feed (IoC) platform: pushes IP / domain / URL / hash indicators to IPS, WAF, DNS security and firewalls from one place, with RBAC, audit log, enrichment and CEF forwarding to SIEM. |
+| [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai) | Turns raw Nuclei findings into an executive risk report with Gemini: business impact, attacker view, remediation. |
+| [ot-medeus](https://github.com/dog4n/ot-medeus) | Read-only OT / ICS / BMS asset discovery and inventory engine, safe-by-default for industrial networks. |
+| [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool) | Automated response: scores IPs on AbuseIPDB + VirusTotal and blocks malicious ones with timed removal. |
 
 #### 🚧 In development (private)
 
-- **Scan Platform**: multi-tenant attack surface management (EASM) SaaS with DNS-verified targets, isolated scanners and CVE watch.
-- **PicusCF**: correlates Picus SCV web attack simulations with Cloudflare WAF logs and scores false-positive risk before rules go to Block.
+- **PicusCF**: correlates Picus attack simulations with Cloudflare WAF logs and scores false-positive risk before rules move to Block.
+- **Scan Platform**: multi-tenant attack surface management (EASM) with DNS-verified targets, isolated scanners and CVE watch.
 
 ---
 
@@ -29,22 +38,31 @@ automation for the repetitive parts of that work.
 
 ### Merhaba, ben Ali Doğan 👋
 
-İstanbul'da siber güvenlik ve ağ altyapısı mühendisiyim, Elektrik-Elektronik Mühendisiyim.
-Günlük işim firewall, SOC araçları ve erişim kontrolü; bu işin tekrar eden kısımları için
-otomasyon araçları geliştiriyorum.
+**Kıdemli Siber Güvenlik Mühendisi** · Güvenlik Operasyonları ve Tehdit Önleme · İstanbul
 
-**Günlük kullandıklarım:** FortiGate · Check Point · F5 · SIEM / SOC · TippingPoint IPS · NAC · MFA / RADIUS · SSL VPN
+Kurumsal güvenliğin savunma tarafında çalışıyorum: tehditleri tespit etmek, güvenlik
+kontrollerinde durdurmak ve bu kontrollerin gerçekten çalıştığını kanıtlamak. MSSP/SOC ve
+kurum içi güvenlik ekiplerinde 5+ yıl; SIEM korelasyonu ve threat hunting'den saldırı
+simülasyonu ve olay müdahalesine kadar.
 
-**Geliştirirken:** Python · Go · Flask · PostgreSQL · Docker · Nuclei · Linux
+- 🔎 **Tespit ve müdahale:** SIEM use case ve korelasyon, threat hunting, EDR / XDR, SOAR playbook, olay müdahalesi
+- 🛡️ **Tehdit önleme:** IPS / IDS, WAF, DNS güvenliği, sandbox, e-posta güvenliği, SSL inspection
+- 🧠 **Tehdit istihbaratı (CTI):** IoC yaşam döngüsü, zenginleştirme ve güvenlik kontrollerine otomatik uygulama
+- 🎯 **Güvenlik doğrulama:** Breach & Attack Simulation (Picus SCV), MITRE ATT&CK açık analizi ve sıkılaştırma
+- 🔐 **Erişim kontrolü:** NAC (802.1X, RADIUS), MFA
+- 📋 **Yönetişim:** ISO 27001, KVKK, NIST, PCI-DSS
 
-**Açık projeler**
-- [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai): Nuclei bulgularını Gemini ile yönetici seviyesinde HTML risk raporuna çevirir.
-- [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool): IP'leri AbuseIPDB + VirusTotal'da sorgular, zararlıysa FortiGate'te otomatik engeller ve süre dolunca kaldırır.
-- [iocmanager](https://github.com/dog4n/iocmanager): IP / hash / domain / URL tehdit listelerini yöneten portal; rol bazlı yetki, audit log, FortiGate obje kontrolü, SIEM / Umbrella / TippingPoint / Cloudflare senkronu.
-- [ot-medeus](https://github.com/dog4n/ot-medeus): salt-okunur OT / ICS / BMS varlık keşif ve envanter motoru.
+Güvenlik operasyonlarının tekrar eden kısımlarını Python ile otomatikleştiriyorum: tehdit
+listesi orkestrasyonu, kontrol doğrulama ve konfigürasyon denetimi.
+
+**Projeler**
+- [iocmanager](https://github.com/dog4n/iocmanager): IoC'leri tek yerden IPS, WAF, DNS güvenliği ve firewall'lara basan merkezi tehdit listesi platformu; rol bazlı yetki, audit log, zenginleştirme, SIEM'e CEF.
+- [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai): Nuclei bulgularını Gemini ile yönetici seviyesinde risk raporuna çevirir.
+- [ot-medeus](https://github.com/dog4n/ot-medeus): endüstriyel ağlar için salt-okunur OT / ICS / BMS varlık keşif ve envanter motoru.
+- [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool): IP'leri AbuseIPDB + VirusTotal ile puanlar, zararlıysa otomatik engeller ve süre dolunca kaldırır.
 
 **Geliştirme aşamasında (private)**
-- **Scan Platform**: çok kiracılı saldırı yüzeyi yönetimi (EASM) SaaS'ı.
-- **PicusCF**: Picus SCV web saldırı simülasyonlarını Cloudflare WAF loglarıyla eşleştirir, kuralları Block'a almadan önce yanlış pozitif riskini ölçer.
+- **PicusCF**: Picus saldırı simülasyonlarını Cloudflare WAF loglarıyla eşleştirir, kuralları Block'a almadan önce yanlış pozitif riskini ölçer.
+- **Scan Platform**: çok kiracılı saldırı yüzeyi yönetimi (EASM).
 
 </details>
