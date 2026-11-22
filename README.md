@@ -11,8 +11,8 @@ the risk to management in plain terms.
 
 #### 🏆 Track record
 
-- **Security architecture:** delivered a datacenter security platform migration with overnight cutovers; designed SSL inspection, DoS protection and layered controls (IPS, WAF, DNS security)
-- **Programs & vendor selection:** drove the NAC replacement end to end: requirements, design and evaluation of Cisco ISE, Aruba ClearPass and FortiNAC
+- **Security infrastructure architecture:** design and run layered security across DC and cloud (inspection, threat prevention, access and identity controls) and lead platform migrations from planning to cutover
+- **Programs & vendor selection:** lead security projects end to end: requirements, solution design, PoCs and vendor evaluation across product categories
 - **Incident leadership:** lead responder for security infrastructure outages; drive P1 cases with global vendor TAC teams in English
 - **Threat intelligence at scale:** replaced manual per-device IoC entry with one platform that enforces indicators across 3 sites, IPS, WAF and DNS security, in production
 - **Continuous validation:** run a Breach & Attack Simulation program (Picus SCV, MITRE ATT&CK) and close the gaps it finds
@@ -57,8 +57,8 @@ MSSP/SOC ve kurum içi güvenlik ekiplerinde 5+ yıl. Tespit, önleme, erişim k
 ve yönetişimi birbirine bağlayan; riski yönetime sade bir dille anlatan kişiyim.
 
 **Öne çıkanlar**
-- **Güvenlik mimarisi:** gece geçişli veri merkezi güvenlik platformu göçü; SSL inspection, DoS koruması ve katmanlı kontroller (IPS, WAF, DNS güvenliği)
-- **Proje ve ürün seçimi:** NAC değişimini uçtan uca yönettim: gereksinimler, tasarım, Cisco ISE / Aruba ClearPass / FortiNAC değerlendirmesi
+- **Güvenlik altyapı mimarisi:** DC ve bulut ortamlarında katmanlı güvenlik tasarımı ve işletimi (inspection, tehdit önleme, erişim ve kimlik kontrolleri); planlamadan geçişe kadar platform göçleri
+- **Proje ve ürün seçimi:** güvenlik projelerini uçtan uca yönetirim: gereksinimler, çözüm tasarımı, PoC ve farklı ürün kategorilerinde üretici değerlendirmesi
 - **Olay yönetimi:** güvenlik altyapısı kesintilerinde lider müdahaleci; P1 vakaları global üretici TAC ekipleriyle İngilizce yürütme
 - **Ölçekli tehdit istihbaratı:** cihaz cihaz elle IoC girişini, 3 lokasyondaki kontrollere, IPS, WAF ve DNS güvenliğine tek yerden basan bir platformla değiştirdim; canlıda
 - **Sürekli doğrulama:** Breach & Attack Simulation programı (Picus SCV, MITRE ATT&CK) ve bulunan açıkların kapatılması
