@@ -15,7 +15,7 @@ the risk to management in plain terms.
 - **Programs & vendor selection:** lead security projects end to end: requirements, solution design, PoCs and vendor evaluation across product categories
 - **Incident leadership:** lead responder for security infrastructure outages; drive P1 cases with global vendor TAC teams in English
 - **Threat intelligence at scale:** replaced manual per-device IoC entry with one platform that enforces indicators across 3 sites, IPS, WAF and DNS security, in production
-- **Continuous validation:** run a Breach & Attack Simulation program (Picus SCV, MITRE ATT&CK) and close the gaps it finds
+- **Continuous validation:** run a continuous Breach & Attack Simulation program mapped to MITRE ATT&CK and close the gaps it finds
 - **Managed security:** delivered SOC services (SIEM, EDR, SOAR) for 5+ enterprise clients; pre-sales and post-sales in Turkish and English
 
 #### 🧭 What I cover
@@ -38,8 +38,9 @@ the risk to management in plain terms.
 | [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai) | Turns raw scanner findings into an executive risk report: business impact, attacker view, remediation. |
 | [ot-medeus](https://github.com/dog4n/ot-medeus) | Read-only OT / ICS / BMS asset discovery and inventory engine, safe-by-default for industrial networks. |
 | [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool) | Automated response: scores IPs on threat-intel sources and blocks malicious ones with timed removal. |
+| [picuscf](https://github.com/dog4n/picuscf) | Correlates attack simulation results with WAF logs, tracks progress between runs and scores false-positive risk before rules move to Block. |
 
-**In development (private):** PicusCF (attack simulation × WAF log correlation with false-positive risk scoring) · Scan Platform (multi-tenant attack surface management)
+**In development (private):** Scan Platform (multi-tenant attack surface management)
 
 ---
 
@@ -61,9 +62,9 @@ ve yönetişimi birbirine bağlayan; riski yönetime sade bir dille anlatan kiş
 - **Proje ve ürün seçimi:** güvenlik projelerini uçtan uca yönetirim: gereksinimler, çözüm tasarımı, PoC ve farklı ürün kategorilerinde üretici değerlendirmesi
 - **Olay yönetimi:** güvenlik altyapısı kesintilerinde lider müdahaleci; P1 vakaları global üretici TAC ekipleriyle İngilizce yürütme
 - **Ölçekli tehdit istihbaratı:** cihaz cihaz elle IoC girişini, 3 lokasyondaki kontrollere, IPS, WAF ve DNS güvenliğine tek yerden basan bir platformla değiştirdim; canlıda
-- **Sürekli doğrulama:** Breach & Attack Simulation programı (Picus SCV, MITRE ATT&CK) ve bulunan açıkların kapatılması
+- **Sürekli doğrulama:** MITRE ATT&CK'e dayalı sürekli Breach & Attack Simulation programı ve bulunan açıkların kapatılması
 - **Yönetilen güvenlik:** 5+ kurumsal müşteriye SOC hizmeti (SIEM, EDR, SOAR); Türkçe ve İngilizce pre-sales / post-sales
 
-**Projeler:** [iocmanager](https://github.com/dog4n/iocmanager) · [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai) · [ot-medeus](https://github.com/dog4n/ot-medeus) · [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool)
+**Projeler:** [iocmanager](https://github.com/dog4n/iocmanager) · [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai) · [ot-medeus](https://github.com/dog4n/ot-medeus) · [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool) · [picuscf](https://github.com/dog4n/picuscf)
 
 </details>
