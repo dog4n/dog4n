@@ -1,68 +1,69 @@
-### Hi, I'm Ali Doğan 👋
+### Ali Doğan Sönmez 👋
 
-**Senior Cyber Security Engineer** · Security Operations & Threat Prevention · Istanbul
+**Senior Cyber Security Engineer** · Security Architecture & Operations · Istanbul
 
-I work on the defensive side of enterprise security: detecting threats, stopping them at the
-control layer and proving those controls actually hold. 5+ years across MSSP/SOC and in-house
-security teams, from SIEM correlation and threat hunting to breach & attack simulation and
-incident response.
+> I own security problems end to end: design the defense, choose and prove the tools,
+> lead the incident when it breaks, then automate it so it doesn't happen again.
 
-- 🔎 **Detection & response:** SIEM use cases and correlation, threat hunting, EDR / XDR, SOAR playbooks, incident response
-- 🛡️ **Threat prevention:** IPS / IDS, WAF, DNS security, sandboxing, mail security, SSL inspection
-- 🧠 **Threat intelligence:** IoC lifecycle, enrichment and automated enforcement across security controls
-- 🎯 **Security validation:** Breach & Attack Simulation (Picus SCV), MITRE ATT&CK gap analysis and hardening
-- 🔐 **Access control:** NAC (802.1X, RADIUS), MFA
-- 📋 **Governance:** ISO 27001, KVKK, NIST, PCI-DSS
+5+ years across MSSP/SOC and in-house enterprise security. I'm the person who connects the
+pieces: detection, prevention, access control, validation and governance, and who explains
+the risk to management in plain terms.
 
-I automate the repetitive parts of security operations with Python: threat-feed orchestration,
-control validation and configuration auditing.
+#### 🏆 Track record
+
+- **Security architecture:** delivered a datacenter security platform migration with overnight cutovers; designed SSL inspection, DoS protection and layered controls (IPS, WAF, DNS security)
+- **Programs & vendor selection:** drove the NAC replacement end to end: requirements, design and evaluation of Cisco ISE, Aruba ClearPass and FortiNAC
+- **Incident leadership:** lead responder for security infrastructure outages; drive P1 cases with global vendor TAC teams in English
+- **Threat intelligence at scale:** replaced manual per-device IoC entry with one platform that enforces indicators across 3 sites, IPS, WAF and DNS security, in production
+- **Continuous validation:** run a Breach & Attack Simulation program (Picus SCV, MITRE ATT&CK) and close the gaps it finds
+- **Managed security:** delivered SOC services (SIEM, EDR, SOAR) for 5+ enterprise clients; pre-sales and post-sales in Turkish and English
+
+#### 🧭 What I cover
+
+| Area | |
+|---|---|
+| Detection & response | SIEM use cases and correlation, threat hunting, EDR / XDR, SOAR, incident response |
+| Threat prevention | IPS / IDS, WAF, DNS security, sandboxing, mail security, SSL inspection |
+| Threat intelligence | IoC lifecycle, enrichment, automated enforcement |
+| Access control | NAC (802.1X, MAB, RADIUS), MFA |
+| Validation | Breach & Attack Simulation, MITRE ATT&CK gap analysis |
+| Governance | ISO 27001, KVKK, NIST, PCI-DSS, change management |
+| Automation | Python, REST APIs, Flask, Docker, Linux |
 
 #### 🔧 Projects
 
 | Project | What it does |
 |---|---|
-| [iocmanager](https://github.com/dog4n/iocmanager) | Central threat-feed (IoC) platform: pushes IP / domain / URL / hash indicators to IPS, WAF, DNS security and firewalls from one place, with RBAC, audit log, enrichment and CEF forwarding to SIEM. |
-| [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai) | Turns raw Nuclei findings into an executive risk report with Gemini: business impact, attacker view, remediation. |
+| [iocmanager](https://github.com/dog4n/iocmanager) | Central threat-feed (IoC) platform: pushes indicators to IPS, WAF, DNS security and firewalls from one place, with RBAC, audit log, enrichment and SIEM forwarding. |
+| [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai) | Turns raw scanner findings into an executive risk report: business impact, attacker view, remediation. |
 | [ot-medeus](https://github.com/dog4n/ot-medeus) | Read-only OT / ICS / BMS asset discovery and inventory engine, safe-by-default for industrial networks. |
-| [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool) | Automated response: scores IPs on AbuseIPDB + VirusTotal and blocks malicious ones with timed removal. |
+| [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool) | Automated response: scores IPs on threat-intel sources and blocks malicious ones with timed removal. |
 
-#### 🚧 In development (private)
-
-- **PicusCF**: correlates Picus attack simulations with Cloudflare WAF logs and scores false-positive risk before rules move to Block.
-- **Scan Platform**: multi-tenant attack surface management (EASM) with DNS-verified targets, isolated scanners and CVE watch.
+**In development (private):** PicusCF (attack simulation × WAF log correlation with false-positive risk scoring) · Scan Platform (multi-tenant attack surface management)
 
 ---
 
 <details>
 <summary>🇹🇷 Türkçe</summary>
 
-### Merhaba, ben Ali Doğan 👋
+### Ali Doğan Sönmez 👋
 
-**Kıdemli Siber Güvenlik Mühendisi** · Güvenlik Operasyonları ve Tehdit Önleme · İstanbul
+**Kıdemli Siber Güvenlik Mühendisi** · Güvenlik Mimarisi ve Operasyonları · İstanbul
 
-Kurumsal güvenliğin savunma tarafında çalışıyorum: tehditleri tespit etmek, güvenlik
-kontrollerinde durdurmak ve bu kontrollerin gerçekten çalıştığını kanıtlamak. MSSP/SOC ve
-kurum içi güvenlik ekiplerinde 5+ yıl; SIEM korelasyonu ve threat hunting'den saldırı
-simülasyonu ve olay müdahalesine kadar.
+> Güvenlik problemlerini uçtan uca sahipleniyorum: savunmayı tasarlarım, araçları seçip
+> kanıtlarım, bir şey bozulduğunda müdahaleyi yönetirim, sonra tekrar olmasın diye otomatikleştiririm.
 
-- 🔎 **Tespit ve müdahale:** SIEM use case ve korelasyon, threat hunting, EDR / XDR, SOAR playbook, olay müdahalesi
-- 🛡️ **Tehdit önleme:** IPS / IDS, WAF, DNS güvenliği, sandbox, e-posta güvenliği, SSL inspection
-- 🧠 **Tehdit istihbaratı (CTI):** IoC yaşam döngüsü, zenginleştirme ve güvenlik kontrollerine otomatik uygulama
-- 🎯 **Güvenlik doğrulama:** Breach & Attack Simulation (Picus SCV), MITRE ATT&CK açık analizi ve sıkılaştırma
-- 🔐 **Erişim kontrolü:** NAC (802.1X, RADIUS), MFA
-- 📋 **Yönetişim:** ISO 27001, KVKK, NIST, PCI-DSS
+MSSP/SOC ve kurum içi güvenlik ekiplerinde 5+ yıl. Tespit, önleme, erişim kontrolü, doğrulama
+ve yönetişimi birbirine bağlayan; riski yönetime sade bir dille anlatan kişiyim.
 
-Güvenlik operasyonlarının tekrar eden kısımlarını Python ile otomatikleştiriyorum: tehdit
-listesi orkestrasyonu, kontrol doğrulama ve konfigürasyon denetimi.
+**Öne çıkanlar**
+- **Güvenlik mimarisi:** gece geçişli veri merkezi güvenlik platformu göçü; SSL inspection, DoS koruması ve katmanlı kontroller (IPS, WAF, DNS güvenliği)
+- **Proje ve ürün seçimi:** NAC değişimini uçtan uca yönettim: gereksinimler, tasarım, Cisco ISE / Aruba ClearPass / FortiNAC değerlendirmesi
+- **Olay yönetimi:** güvenlik altyapısı kesintilerinde lider müdahaleci; P1 vakaları global üretici TAC ekipleriyle İngilizce yürütme
+- **Ölçekli tehdit istihbaratı:** cihaz cihaz elle IoC girişini, 3 lokasyondaki kontrollere, IPS, WAF ve DNS güvenliğine tek yerden basan bir platformla değiştirdim; canlıda
+- **Sürekli doğrulama:** Breach & Attack Simulation programı (Picus SCV, MITRE ATT&CK) ve bulunan açıkların kapatılması
+- **Yönetilen güvenlik:** 5+ kurumsal müşteriye SOC hizmeti (SIEM, EDR, SOAR); Türkçe ve İngilizce pre-sales / post-sales
 
-**Projeler**
-- [iocmanager](https://github.com/dog4n/iocmanager): IoC'leri tek yerden IPS, WAF, DNS güvenliği ve firewall'lara basan merkezi tehdit listesi platformu; rol bazlı yetki, audit log, zenginleştirme, SIEM'e CEF.
-- [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai): Nuclei bulgularını Gemini ile yönetici seviyesinde risk raporuna çevirir.
-- [ot-medeus](https://github.com/dog4n/ot-medeus): endüstriyel ağlar için salt-okunur OT / ICS / BMS varlık keşif ve envanter motoru.
-- [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool): IP'leri AbuseIPDB + VirusTotal ile puanlar, zararlıysa otomatik engeller ve süre dolunca kaldırır.
-
-**Geliştirme aşamasında (private)**
-- **PicusCF**: Picus saldırı simülasyonlarını Cloudflare WAF loglarıyla eşleştirir, kuralları Block'a almadan önce yanlış pozitif riskini ölçer.
-- **Scan Platform**: çok kiracılı saldırı yüzeyi yönetimi (EASM).
+**Projeler:** [iocmanager](https://github.com/dog4n/iocmanager) · [enterprise-vuln-ai](https://github.com/dog4n/enterprise-vuln-ai) · [ot-medeus](https://github.com/dog4n/ot-medeus) · [Cyber-Automation-Tool](https://github.com/dog4n/Cyber-Automation-Tool)
 
 </details>
